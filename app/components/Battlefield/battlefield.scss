@@ -1,0 +1,195 @@
+$cell_width: 100px;
+$cell_spacing: 11px;
+$v_offset: 0.32 * $cell_width - 0.5 * $cell_spacing;
+$h_offset: 0.25 * $cell_width + 0.25 * $cell_spacing;
+
+.wrapper {
+  background: green;
+  width: 600px;
+  height: 400px;
+}
+
+.honeycomb {
+  color: #fff;
+  rotate: 30deg;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1080px;
+  padding: 20px 45px;
+  position: relative;
+
+  &,
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  .cell-row1 {
+    flex: 0 0 100%;
+    justify-self: center;
+  }
+
+  .cell-row1-inner {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .cell-row2 {
+    flex: 0 0 100%;
+    width: 100%;
+    justify-self: center;
+  }
+
+  .cell-row2-inner {
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: -44px;
+    gap: 75px;
+    left: -74px;
+  }
+
+  .cell-row3 {
+    flex: 0 0 100%;
+    justify-self: center;
+  }
+
+  .cell-row3-inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: -88px;
+    left: -37px;
+  }
+
+  .cell-row4 {
+    flex: 0 0 100%;
+    justify-self: center;
+  }
+
+  .cell-row4-inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: -184px;
+    left: -37px;
+    gap: 260px;
+  }
+
+  .cell-row5 {
+    flex: 0 0 100%;
+    justify-self: center;
+  }
+
+  .cell-row5-inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: -228px;
+    gap: 76px;
+    left: -56px;
+  }
+
+  .cell-row6 {
+    flex: 0 0 100%;
+    justify-self: center;
+  }
+
+  .cell-row6-inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: -272px;
+    gap: 75px;
+    left: -74px;
+  }
+
+  .cell-row7 {
+    flex: 0 0 100%;
+    justify-self: center;
+  }
+
+  .cell-row7-inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: -316px;
+    gap: 75px;
+    left: -92px;
+  }
+
+  .cell {
+    left: 27.75px;
+    position: relative;
+    display: block;
+    vertical-align: center;
+    width: $cell_width;
+    height: 1.5 * $cell_width;
+    margin: -1 * $v_offset $cell_spacing/2 -1 * $v_offset $cell_spacing/2;
+    text-decoration: none;
+    overflow: hidden;
+    transform: skewX(-20deg) rotate(-150deg);
+    left: -1 * ($h_offset);
+
+    &.odd-row {
+      left: $h_offset;
+    }
+
+    .cell-inner {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      transform: rotate(60deg);
+
+      .content {
+        display: block;
+        width: 100%;
+        height: 100%;
+        transform: rotate(60deg);
+        background-color: black;
+        color: #fff;
+
+        &:hover {
+          background-color: #000;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  span {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 32px;
+
+  &,
+  *,
+  *:before,
+  *.after {
+    box-sizing: border-box;
+    transition: all 0.1s ease;
+  }
+}
