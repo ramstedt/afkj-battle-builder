@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Ailsa",
+        "class": "Mage",
+        "faction": "Mauler",
+        "url": ""
+    },
+    {
+        "name": "Antandra",
+        "class": "Tank",
+        "faction": "Mauler",
+        "url": ""
+    },
+    {
+        "name": "Arden",
+        "class": "Mage",
+        "faction": "Wilder",
+        "url": ""
+    },
+    {
+        "name": "Atalanta",
+        "class": "Marksman",
+        "faction": "Lightbearer",
+        "url": ""
+    },
+    {
+        "name": "Berial",
+        "class": "Rouge",
+        "faction": "Hypogean",
+        "url": ""
+    },
+    {
+        "name": "Brutus",
+        "class": "Warrior",
+        "faction": "Mauler",
+        "url": ""
+    },
+    {
+        "name": "Bryon",
+        "class": "Marksman",
+        "faction": "Wilder",
+        "url": ""
+    },
+    {
+        "name": "Carolina",
+        "class": "Mage",
+        "faction": "Graveborn",
+        "url": ""
+    },
+    {
+        "name": "Cassadee",
+        "class": "Mage",
+        "faction": "Lightbearer",
+        "url": ""
+    },
+    {
+        "name": "Cecia",
+        "class": "Marksman",
+        "faction": "Graveborn",
+        "url": ""
+    },
+    {
+        "name": "Damian",
+        "class": "Support",
+        "faction": "Wilder",
+        "url": ""
+    },
+    {
+        "name": "Dionel",
+        "class": "Marksman",
+        "faction": "Celestial",
+        "url": ""
+    },
+    {
+        "name": "Dunlingr",
+        "class": "Tank",
+        "faction": "Celestial",
+        "url": ""
+    },
+    {
+        "name": "Eironn",
+        "class": "Rouge",
+        "faction": "Wilder",
+        "url": ""
+    },
+    {
+        "name": "Fay",
+        "class": "Support",
+        "faction": "Lightbearer",
+        "url": ""
+    },
+    {
+        "name": "Florabelle",
+        "class": "Warrior",
+        "faction": "Wilder",
+        "url": ""
+    },
+    {
+        "name": "Granny Dahnie",
+        "class": "Tank",
+        "faction": "Wilder",
+        "url": ""
+    },
+    {
+        "name": "Hewynn",
+        "class": "Support",
+        "faction": "Wilder",
+        "url": ""
+    },
+    {
+        "name": "Igor",
+        "class": "Warrior",
+        "faction": "Graveborn",
+        "url": ""
+    },
+    {
+        "name": "Kafra",
+        "class": "Warrior",
+        "faction": "Wilder",
+        "url": ""
+    },
+    {
+        "name": "Koko",
+        "class": "Support",
+        "faction": "Mauler",
+        "url": ""
+    },
+    {
+        "name": "Korin",
+        "class": "Warrior",
+        "faction": "Lightbearer",
+        "url": ""
+    },
+    {
+        "name": "Kruger",
+        "class": "Warrior",
+        "faction": "Mauler",
+        "url": ""
+    },
+    {
+        "name": "Lenya",
+        "class": "Rouge",
+        "faction": "Wilder",
+        "url": ""
+    },
+    {
+        "name": "Lily May",
+        "class": "Rouge",
+        "faction": "Wilder",
+        "url": ""
+    }
+]
